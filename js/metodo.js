@@ -1,4 +1,13 @@
 
+function ocultar(){
+    document.getElementById("ocul").style.display="none";
+    document.getElementById("ocultar").style.display="none";
+    document.getElementById("guardartext").style.display="none";
+    document.getElementById("calcular").style.display="none";
+    document.getElementById("calcula").style.display="none";
+    document.getElementById("horas").style.display="none";
+    document.getElementById("inpri").style.display="none";
+}
 
         
 function solonumeros(e){

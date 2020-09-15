@@ -12,7 +12,7 @@
 </head>
 <body align="center">    
 
-        <div class="caja" align="center" >Bienvenidos/as antes que nada por si eres nuevo y aún te cuesta entender un poco el 
+        <div id="ocul" class="caja" align="center" >Bienvenidos/as antes que nada por si eres nuevo y aún te cuesta entender un poco el 
             Método de Punto de Función aquí comparto un enlace donde pueden documentarse más.  
             <a href="http://www.pmoinformatica.com/2015/04/estimacion-puntos-funcion-introduccion.html"> Visitar Página</a></div>
     
@@ -90,7 +90,7 @@
             
         </table> 
         <br>
-        <input type="button"  id="calcular"  onclick="calculo()"   value="Guardar" > <br> <br> <a href="index2.html">  Ayuda</a>
+        <input type="button"  id="calcular"  onclick="calculo()"   value="Guardar" > <br> <br> <a id="ocultar" href="index2.html">  Ayuda</a>
 
         <br>
         <!--<p> UFC= <input type="text" id="pasar" readonly=" readonly" style="width : 35px; heigth : 1px"></label> </p>-->
@@ -210,11 +210,10 @@
          <p> Duración del proyecto mes/meses= Duración del proyecto en horas/60 horas</p>
         <h3>Duración del proyecto mes/meses :
             <input type="text" id="promedio_meses" class="redondeado" onpaste="return false"readonly=" readonly"  style="width : 45px; heigth : 1px value " id="horas" style="width : 35px; heigth : 1px"  > 
-            
         </h3>
 
-
-
+        <br>
+        <form > <input type="button" value="Imprimir" onclick="window.print()"onmouseover="ocultar()" ></form>
     </body>
 </html>
 
